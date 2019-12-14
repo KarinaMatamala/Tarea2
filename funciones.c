@@ -1,4 +1,4 @@
-/=====FUNCION *agregarCancion=====
+/*=====FUNCION *agregarCancion=====
 */
 void agregarCancion(Map *mapaCanciones, Map *mapaAlbum, Map *mapaArtista){
     char *nombre;
@@ -18,12 +18,12 @@ void agregarCancion(Map *mapaCanciones, Map *mapaAlbum, Map *mapaArtista){
     }
     printf("\n Cancion agregada con exito c:\n");
 }
-/=====FUNCION *buscarCancion=====
+/*=====FUNCION *buscarCancion=====
 */
 void buscarCancion(Map *mapaCanciones){
     char *nombre;
 
-    printf("¿Que cancion desea buscar ?\n");
+    printf("Â¿Que cancion desea buscar ?\n");
     scanf("%s",nombre);
     cancion *mostrar;
     mostrar=searchMap(mapaCanciones,nombre);
